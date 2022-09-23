@@ -1,8 +1,6 @@
 #ifndef _VENEZIA_VTHREAD_H
 #define _VENEZIA_VTHREAD_H
 
-#include "common.h"
-
 typedef void* VnzVThreadEvent;
 typedef int VnzVThreadContext;
 typedef int(*VnzVThreadEntry)(int a1, int a2, int a3, int a4);
